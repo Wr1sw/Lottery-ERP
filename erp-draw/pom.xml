@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lotteryerp</artifactId>
+        <groupId>cn.wr1sw</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>erp-draw</artifactId>
+
+
+    <dependencies>
+        <!-- 这里不仅可以添加官网mvn仓库的依赖，还可以添加其他几项的依赖 -->
+        <dependency>
+            <groupId>cn.wr1sw</groupId>
+            <artifactId>erp-common</artifactId>
+            <version>1.0.0</version>
+
+        </dependency>
+    </dependencies>
+</project>
